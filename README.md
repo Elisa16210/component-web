@@ -127,21 +127,6 @@ urltext:影片名稱(為了符合無障礙網站，需描述影片名稱)
 }
 
 ```
-## footer
-網頁上顯示頁尾資料
-```
-{
-    "name" : "姓名",
-    "location" : "地址",
-    "phone": " 電話 #分機",
-    "fax":"傳真",
-    "eMail":"信箱",
-    "下方資訊請勿更動":"img、imgText、imgurl等資訊由電算中心負責維護，謝謝",
-    "img":"onLineTools/img/無障礙網站等級+A.png",
-    "imgText":"無障礙網站",
-    "imgurl":"無障礙網址路徑"
-}
-```
 ## hr
 網頁上顯示一條橫線
 ```
