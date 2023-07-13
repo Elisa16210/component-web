@@ -66,7 +66,7 @@ icon 請上 fontawesome 官網查詢
 data陣列多筆為左右排列圖片
 imgUrl : 圖片路徑
 imgLink : 圖片點擊路徑
-imgText: 圖片名稱
+imgText: 圖片名稱(為了符合無障礙網站，需描述圖片名稱)
 ```
 {
     "componentType": "img",
@@ -88,7 +88,7 @@ text 陣列內為段落，字串內可寫html程式碼
     "componentType": "text",
     "text": [
         "交通資訊：<a href='https://www.dyu.edu.tw/traffic.html'>https://www.dyu.edu.tw/traffic.html</a>",
-        "本校為國立大學"
+        "本校為私立大學"
     ]
 }
 ```
@@ -102,6 +102,7 @@ text 陣列內為段落，字串內可寫html程式碼
 ```
 ## iframe
 位畫面控一格
+urltext:影片名稱(為了符合無障礙網站，需描述影片名稱)
 ```
 {
     "componentType":"iframe",
@@ -123,6 +124,22 @@ text 陣列內為段落，字串內可寫html程式碼
         "width":"70%",
         "height":"768px"
     }
+}
+
+```
+## footer
+網頁上顯示頁尾資料
+```
+{
+    "name" : "姓名",
+    "location" : "地址",
+    "phone": " 電話 #分機",
+    "fax":"傳真",
+    "eMail":"信箱",
+    "下方資訊請勿更動":"img、imgText、imgurl等資訊由電算中心負責維護，謝謝",
+    "img":"tools/img/無障礙網站等級+A.png",
+    "imgText":"無障礙網站",
+    "imgurl":"無障礙網址路徑"
 }
 ```
 ## hr
