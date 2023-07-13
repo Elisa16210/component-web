@@ -1,4 +1,4 @@
-# 使用外掛
+![image](https://github.com/Elisa16210/component-web/assets/126762287/31f5e088-0e38-42d0-98da-1b126305ab9b)# 使用外掛
 ## Use CSS framework  
 ```
 vuetify
@@ -73,8 +73,8 @@ imgText: 圖片名稱(為了符合無障礙網站，需描述圖片名稱)
     "style": "width:60%",
     "data":[
         {
-            "imgUrl":"tools/img/classIntroduce/CI01.jpg",
-            "imgLink":"tools/img/classIntroduce/CI01.jpg",
+            "imgUrl":"onLineTools/img/classIntroduce/CI01.jpg",
+            "imgLink":"onLineTools/img/classIntroduce/CI01.jpg",
             "imgText": "系有薪資行情圖"
         }
     ]
@@ -137,7 +137,7 @@ urltext:影片名稱(為了符合無障礙網站，需描述影片名稱)
     "fax":"傳真",
     "eMail":"信箱",
     "下方資訊請勿更動":"img、imgText、imgurl等資訊由電算中心負責維護，謝謝",
-    "img":"tools/img/無障礙網站等級+A.png",
+    "img":"onLineTools/img/無障礙網站等級+A.png",
     "imgText":"無障礙網站",
     "imgurl":"無障礙網址路徑"
 }
