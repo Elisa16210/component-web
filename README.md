@@ -65,7 +65,7 @@ icon 請上 fontawesome 官網查詢
 圖片
 data陣列多筆為左右排列圖片
 imgUrl : 圖片路徑
-imgLink : 圖片點擊路徑
+imgLink : 圖片點擊路徑。(如果路徑是為文件的話，文件檔案限odt檔案，不可使用pdf或者doc檔案)
 imgText: 圖片名稱(為了符合無障礙網站，需描述圖片名稱)
 ```
 {
